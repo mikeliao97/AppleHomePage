@@ -1,0 +1,98 @@
+
+nav {
+  position: absolute;
+  /* background-color: gray; */
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 50px;
+  width: 80%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+ul {
+  display: block;
+  min-width: 1000px;
+  height: 30px;
+}
+
+li {
+  list-style-type: none;
+  color: white;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  
+  
+  text-align: center;
+  vertical-align: middle;
+  line-height: 35px;
+  /* When Clicked */ 
+}
+
+.nav-link:first-child {  
+  margin-left: 1%; 
+  border-radius: 5px 0 0 5px;
+}
+
+.nav-link:last-child {  
+  border-radius: 0 5px 5px 0;
+}
+
+span {
+  display: block;
+}
+
+.nav-link {
+ position: relative;
+ height: 35px;
+ width: 105px;
+/*  background-color: red; */
+ float: left;
+ border: 1px solid black;
+ margin-top: -20px;
+
+ /* background gradient */
+ background: linear-gradient(#808080, #666666, #808080);
+
+}
+
+.nav-link:hover {
+  background: none;
+  background-color: #4d4d4d;
+}
+
+
+#hero {
+  /* background-color: pink; */
+  width: 100%;
+  height: 538px;
+  z-index: 100;
+  background-image: url("http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+}
+
+#products {
+  background-color: yellow;
+  width: 100%;
+  height: 200px;
+
+}
+
+
+footer {
+  background-color: BlanchedAlmond;
+  width: 100%;
+  height: 54px;
+}
+
+.product {
+  background-color: green;
+  width: 25%;
+  height: 100%;
+  border: 1px solid black;
+  float: left;
+  box-sizing: border-box;
+}
